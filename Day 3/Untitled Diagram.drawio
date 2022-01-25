@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T06:13:33.429Z" agent="5.0 (Windows)" version="16.4.6" etag="-8cm2FFONpiuPJF8VhfV" type="github"><diagram id="terELCtomnu6mrbUsYPc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-25T06:26:56.279Z" agent="5.0 (Windows)" etag="NYQEHvLpEITofvs9EFhh" version="16.4.6" type="github">
+  <diagram id="terELCtomnu6mrbUsYPc" name="Page-1">
+    <mxGraphModel dx="1678" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-1" target="L-PrH0Yx7ox5KwdBrGgN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-1" value="Welcome to the ice tavern, where you are trying to escape before total collapse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="60" width="224" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-2" target="L-PrH0Yx7ox5KwdBrGgN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-2" value="The origin path has collapsed, you have two options, either go deeper into the tavern, or dig through the side wall" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="296" y="200" width="236" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-4" target="L-PrH0Yx7ox5KwdBrGgN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-4" value="&lt;div&gt;Would you like to dig or follow the path?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Dig&lt;/div&gt;&lt;div&gt;2. Follow the path&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="330" width="273" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-6" target="L-PrH0Yx7ox5KwdBrGgN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-6" target="L-PrH0Yx7ox5KwdBrGgN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-6" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="373.5" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-8" target="L-PrH0Yx7ox5KwdBrGgN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-8" value="Follow path" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="193.5" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-10" target="L-PrH0Yx7ox5KwdBrGgN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-10" value="Dig" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-12" target="L-PrH0Yx7ox5KwdBrGgN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-12" value="After digging for some time, you break into what seems to be an underground river" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="465.25" y="590" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-14" target="L-PrH0Yx7ox5KwdBrGgN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-14" value="Would you like to swim or go back?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-16" target="L-PrH0Yx7ox5KwdBrGgN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-16" value="You&#39;ve been following for some time and reach a chasm. You may try to climb down, or find a way around" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="186.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-18" target="L-PrH0Yx7ox5KwdBrGgN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-18" target="L-PrH0Yx7ox5KwdBrGgN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-18" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="213.25" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-20" target="L-PrH0Yx7ox5KwdBrGgN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-20" value="Climb down" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="33.25" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-22" target="L-PrH0Yx7ox5KwdBrGgN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-22" value="Find a way around" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="313.5" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-24" target="L-PrH0Yx7ox5KwdBrGgN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-24" value="As you walked along the edge of the chasm, you lost your footing and fell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="313.5" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-26" value="Game over" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="313.5" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-28" target="L-PrH0Yx7ox5KwdBrGgN-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-28" value="You attempt to climb down but with no rope you freehand, you end up falling onto a ground with a river flowing." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="33.25" y="890" width="196.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-32" target="L-PrH0Yx7ox5KwdBrGgN-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-32" target="L-PrH0Yx7ox5KwdBrGgN-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-32" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="533.5" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-35" value="You try to go back, but the path is now blocked..the path back to the river has also just collapsed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="990" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-37" value="You enter the water, and despite rough ride, you make it to the lake outside the cave" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="673.5" y="830" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-39" target="L-PrH0Yx7ox5KwdBrGgN-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="1110" />
+              <mxPoint x="734" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-PrH0Yx7ox5KwdBrGgN-39" target="L-PrH0Yx7ox5KwdBrGgN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-39" value="Would you like to swim? or continue walking?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="73.505" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-PrH0Yx7ox5KwdBrGgN-42" value="You&#39;ve been walking for hours now, dehyrated and hungry you slowly fade into a deep sleep" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="73.51" y="1130" width="120" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
