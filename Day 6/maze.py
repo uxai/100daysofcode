@@ -7,11 +7,22 @@ def turn_right():
     turn_left()
     turn_left()
 
-while not at_goal():
-    if front_is_clear():
-        move()
-        if right_is_clear():
-            if is_facing_north() == False or front_is_clear() == False:
-                turn_right()
-    else:
+def face_north():
+    while is_facing_north() == False:
         turn_left()
+
+face_north()
+
+while not at_goal():
+   while front_is_clear() and is_facing_north():
+       move()
+        
+   if front_is_clear() and right_is_clear() == False:
+       move()
+   else:
+       if right_is_clear():
+           turn_right()
+           if front_is_clear():
+                move()
+       else:
+           turn_left()
