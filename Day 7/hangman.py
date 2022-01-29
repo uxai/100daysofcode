@@ -21,6 +21,17 @@ def print_progress():
         merge += f"{char} "
     print(merge)
 
+print('''
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/                       
+''')
+
 while gameover == False:
     print_progress()
     print(f"Lives remaining: {hearts[lives-1]}")
