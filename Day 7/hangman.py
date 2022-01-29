@@ -2,7 +2,7 @@ import random
 
 gameover = False
 lives = 6
-word_list = ["ardvark", "baboon", "camel", "balloon", "rabbit", "astronaut"]
+word_list = ["ardvark", "baboon", "camel", "balloon", "rabbit", "astronaut", "flowery", "malicious", "actually", "guarded", "quiver", "children", "judicious", "zoom", "collect", "goofy", "expensive", "floor", "fanatical", "gaze", "damage", "wood", "coil", "obsolete", "payment", "woebegone", "opposite", "unwritten", "tour", "interest", "poke", "abstracted", "choke", "sticks", "hope", "replace", "property", "unfasten", "rainy", "scarf", "forgetful", "greasy", "swift", "vigorous", "load", "beds", "hypnotic", "summer", "woman", "laughable", "glossy", "wooden", "knock", "reflect", "lonely", "hour"]
 hearts = ["♥", "♥♥", "♥♥♥", "♥♥♥♥", "♥♥♥♥♥", "♥♥♥♥♥♥"]
 
 # Get a random index for the word_list and assign the chosen word
