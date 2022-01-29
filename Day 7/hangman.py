@@ -38,17 +38,19 @@ while gameover == False:
     guess = input("Guess a letter: ").lower()
 
     if guess in chosen_word:
+        print("Good job!\n")
         for position in range(len(chosen_word)):
             if chosen_word[position] == guess:
                 blank_word[position] = guess
     else:
+        print(f"{guess} is not in the word\n")
         lives -= 1
 
     if '_' not in blank_word:
-        print("Gameover, you win!")
+        print(f"Congratulations! You guessed on the letters in {chosen_word}!")
         gameover = True
     
     if lives == 0:
         print("Gameover, you're out of lives!")
-        print(f"The word was {chosen_word}")
+        print(f"The word was: {chosen_word}")
         gameover = True
