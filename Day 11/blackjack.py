@@ -18,7 +18,7 @@ print('''
 input("Press any key to begin game")
 
 def deal_cards(hand):
-    hand = []
+    hand.clear()
     for _ in range(0, 2):
         select = random.randint(0, 12)
         hand.append(cards[select])
