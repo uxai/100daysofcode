@@ -55,7 +55,7 @@ def play_blackjack():
     user_total = sum(user)
     house_total = sum(house)
 
-    while house_total < 16:
+    while house_total < 17:
         add_card(house)
         house_total = sum(house)
 
