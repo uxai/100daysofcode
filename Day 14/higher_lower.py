@@ -29,13 +29,17 @@ def get_user(first):
     else:
         return id
 
-def check_answer(response, first, second):
-    if first > second and response == "A":
-        return True
-    elif second > first and response == "B":
-        return True
+def get_answer(first_followers, second_followers):
+    response = input("Who has more followers? Type 'A' or 'B': ").upper()
+    if response != "A" and response != "B":
+        get_answer(first_followers, second_followers)
     else:
-        return False
+        if first_followers >= second_followers and response == "A":
+            return True
+        elif second_followers >= first_followers and response == "B":
+            return True
+        else:
+            return False
 
 
 def play():
@@ -58,15 +62,13 @@ def play():
         print(f"Compare A: {data[first]['name']}, {data[first]['description']} from {data[first]['country']} ")
         print(vs)
         print(f"Compare B: {data[second]['name']}, {data[second]['description']} from {data[second]['country']} ")
-        response = input("Who has more followers? Type 'A' or 'B': ")
 
-        # Check if the user scored
-        scored = check_answer(response, data[first]['follower_count'],  data[second]['follower_count'])
+        # Get input and check if the user scores
+        scored = get_answer(data[first]['follower_count'],  data[second]['follower_count'])
         if scored == True:
             score += 1
         else:
             print("------------")
             print(f"Sorry, wrong answer, your final score is: {score}")
     
-
 play()
