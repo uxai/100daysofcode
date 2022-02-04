@@ -33,7 +33,8 @@ def calculation():
         select_operator = input("Please select a operator listed: ")
 
         # Calls the function associated to the given key
-        answer = operations[select_operator](num1, num2)
+        arithmetic = operations[select_operator]
+        answer = arithmetic(num1, num2)
         if answer != None:
             print(f"{num1} {select_operator} {num2} = {answer}")
         else:
