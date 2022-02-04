@@ -4,7 +4,7 @@ import random
 from game_data import data
 
 def clear():
-    _ = os.system('cls')
+    _ = os.system('cls') # Clear screen for windows
 
 logo = """
     __  ___       __             
@@ -29,25 +29,20 @@ def get_user(first):
     else:
         return id
 
-def get_answer(first_followers, second_followers):
-    response = input("Who has more followers? Type 'A' or 'B': ").upper()
-    if response != "A" and response != "B":
-        get_answer(first_followers, second_followers)
+def get_answer(response, first_followers, second_followers):
+    if first_followers >= second_followers and response == "A":
+        return True
+    elif second_followers >= first_followers and response == "B":
+        return True
     else:
-        if first_followers >= second_followers and response == "A":
-            return True
-        elif second_followers >= first_followers and response == "B":
-            return True
-        else:
-            return False
+        return False
 
 
 def play():
     # Keep track of the current score, and if they get the answer correct
     score = 0
-    scored = True
 
-    while scored == True:
+    while True:
         clear() # Clear the screen
         print(logo)
         # assign the id that will be used in the first comparison
@@ -62,13 +57,17 @@ def play():
         print(f"Compare A: {data[first]['name']}, {data[first]['description']} from {data[first]['country']} ")
         print(vs)
         print(f"Compare B: {data[second]['name']}, {data[second]['description']} from {data[second]['country']} ")
+        while True:
+            response = input("Who has more followers? Type 'A' or 'B': ").upper()
+            if response == "A" or response == "B":
+                break;
 
         # Get input and check if the user scores
-        scored = get_answer(data[first]['follower_count'],  data[second]['follower_count'])
-        if scored == True:
+        if get_answer(response, data[first]['follower_count'],  data[second]['follower_count']):
             score += 1
         else:
             print("------------")
             print(f"Sorry, wrong answer, your final score is: {score}")
+            return
     
 play()
