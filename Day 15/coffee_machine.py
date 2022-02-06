@@ -62,7 +62,7 @@ def brew_coffee(drink):
     machine["resources"]["water"] -= MENU[drink]["ingredients"]["water"]
     machine["resources"]["milk"] -= MENU[drink]["ingredients"]["milk"]
     machine["resources"]["coffee"] -= MENU[drink]["ingredients"]["coffee"]
-    print("☕ Enjoy your coffee!")
+    print(f"☕ Enjoy your {drink}!")
 
 def request_money(cost):
     print(f"Please pay an amount of ${cost:.2f}")
