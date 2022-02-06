@@ -62,7 +62,7 @@ def play():
             if response == "A" or response == "B":
                 break;
 
-        # Get input and check if the user scores
+        # Get input and check if the user answer is correct
         if get_answer(response, data[first]['follower_count'],  data[second]['follower_count']):
             score += 1
         else:
