@@ -4,6 +4,7 @@ from datetime import datetime as dt
 import time
 
 EMAIL = "my_email@gmail.com" # Send email from
+PASSWORD = ""
 TO_EMAIL = "my_email@gmail.com" # Send notification to
 
 # Offset hours by UTC
@@ -48,5 +49,5 @@ while True:
         if parameters['lat'] - iss_lat in range(-5, 6) and parameters['lng'] - iss_lng in range(-5, 6):
             with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
                 connection.starttls()
-                connection.login(user=EMAIL, password="password")
+                connection.login(user=EMAIL, password=PASSWORD)
                 connection.sendmail(from_addr=EMAIL, to_addrs=TO_EMAIL, msg=f"Subject:Look up! The ISS is overhead\n\nThe ISS is at {iss_lat}, {iss_lng}")
